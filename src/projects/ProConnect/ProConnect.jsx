@@ -7,7 +7,7 @@ import JobBoard from '../ProConnect/components/JobBoard';
 import Settings from '../ProConnect/components/Settings';
 
 // SPRING BOOT UPLINK CONFIGURATION
-const API_BASE = "http://localhost:8080/api/v1";
+const API_BASE = "const API_BASE = "https://strong-stars-hammer.loca.lt/api/v1";";
 
 export default function ProConnect() {
   const [isBooting, setIsBooting] = useState(false);
