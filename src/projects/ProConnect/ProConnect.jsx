@@ -7,8 +7,7 @@ import JobBoard from '../ProConnect/components/JobBoard';
 import Settings from '../ProConnect/components/Settings';
 
 // SPRING BOOT UPLINK CONFIGURATION
-const API_BASE = "const API_BASE = "https://proconnect-backend-rejr.onrender.com";
-
+const API_BASE = "https://proconnect-backend-rejr.onrender.com/api/v1";
 export default function ProConnect() {
   const [isBooting, setIsBooting] = useState(false);
   const [bootText, setBootText] = useState("INITIALIZING SECURE CONNECTION...");
