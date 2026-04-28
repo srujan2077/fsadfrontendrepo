@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://strong-stars-hammer.loca.lt', // The Uplink to your HP Omen's Java Backend
+        target: 'https://proconnect-backend-rejr.onrender.com',
         changeOrigin: true,
         secure: false,
       }

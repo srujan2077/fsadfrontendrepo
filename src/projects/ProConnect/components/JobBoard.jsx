@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Briefcase, DollarSign, Send, Zap } from 'lucide-react';
 
 // SPRING BOOT UPLINK CONFIGURATION
-const API_BASE = "const API_BASE = "https://strong-stars-hammer.loca.lt/api/v1";";
+const API_BASE = "const API_BASE = "https://proconnect-backend-rejr.onrender.com";
 
 const JobBoard = ({ currentUser, onClaimContract, onNotify }) => {
   const [jobs, setJobs] = useState([]);
